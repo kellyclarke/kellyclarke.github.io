@@ -1,0 +1,21 @@
+body {
+	background-image: "my-work.jpg";
+	background-color: 0,0,0;
+	font-size:16px;
+	font-style:normal;
+}
+
+h1 {color:ff,ff,ff;}
+
+#travel {
+	font-size:18px;
+	font-style:italic;
+	color:fff,ff,ff;
+}
+
+ul {
+	text-align:center;
+	list-style-type: none;
+}
+
+p{color:0,0,0;}
