@@ -1,3 +1,4 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: rgb(0,0,0);
 	color:#eee;
@@ -5,16 +6,23 @@ body {
 	font-style:normal;
 	font-family:helvetica, arial, sans-serif;
 }
+section {
+	padding:5em 0;
+}
+p {
+	margin-top:1em;
+}
 #splash {
 	background-image: url("../images/my-work.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
+	padding: 10em 0;
+	text-align: center;
 }
 #slogan {
 	font-size:1.5em;
 	font-style:italic;
 }
 ul {
-	text-align:center;
 	list-style-type: none;
 }
