@@ -19,6 +19,9 @@ p {
 	padding: 7em 0;
 	text-align: center;
 }
+#name {
+	font-size: 3em;
+}
 #slogan {
 	font-size:2em;
 	font-style:italic;
