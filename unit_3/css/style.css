@@ -1,7 +1,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-color: rgb(0,0,0);
-	color:#eee;
+	background-color: rgb(255,255,255);
+	color:rgb(91,89,89);
 	font-size:16px;
 	font-style:normal;
 	font-family:helvetica, arial, sans-serif;
