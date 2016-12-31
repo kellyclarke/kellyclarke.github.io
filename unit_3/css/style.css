@@ -19,6 +19,8 @@ p {
 	background-image: url("../images/my-work.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 	padding: 7em 0;
 }
 #name {
