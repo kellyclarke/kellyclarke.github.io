@@ -11,6 +11,7 @@ section {
 }
 p {
 	margin-top:1em;
+	font-family: Lato, sans-serif;
 }
 #splash {
 	background-image: url("../images/my-work.jpg");
