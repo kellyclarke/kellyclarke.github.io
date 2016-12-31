@@ -12,6 +12,7 @@ section {
 p {
 	margin-top:1em;
 	font-family: Lato, sans-serif;
+	font-size:2em;
 }
 #splash {
 	background-image: url("../images/my-work.jpg");
@@ -20,12 +21,12 @@ p {
 	padding: 7em 0;
 }
 #name {
-	font-size: 4em;
+	font-size: 6em;
 	color:rgb(20,30,103);
 	font-family: Catamaran, sans-serif;
 }
 #slogan {
-	font-size:2em;
+	font-size:3em;
 	font-style:italic;
 	color:rgb(247,244,244);
 }
