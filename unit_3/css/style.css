@@ -21,6 +21,7 @@ p {
 #name {
 	font-size: 4em;
 	color:rgb(20,30,103);
+	font-family: @import url(https://fonts.googleapis.com/css?family=Catamaran), helvetica, sans-serif;
 }
 #slogan {
 	font-size:2em;
