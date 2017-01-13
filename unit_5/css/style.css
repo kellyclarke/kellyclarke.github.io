@@ -52,7 +52,7 @@ nav {
 	border: 1px black solid;
 	padding: 2em;
 	column-count: 2;
-	column-gap: 50;
+	column-width: 50;
 	float: center;
 	/* padding: 20px; */
 }
