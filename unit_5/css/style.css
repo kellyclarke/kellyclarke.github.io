@@ -49,6 +49,7 @@ nav {
 .headshot {
 	float: left;
 	padding: 1em;
+	background-size:3em auto;
 
 }
 
