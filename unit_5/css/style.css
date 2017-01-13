@@ -11,6 +11,13 @@ header {
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 20px;
+	font-size: 2em;
+}
+
+nav {
+	background-color: #E8C66A
+	border: 1px black solid;
+	padding: 20px;
 }
 
 #logo {
@@ -36,12 +43,6 @@ header {
 	font-style:italic;
 	color:rgb(247,244,244);
 	text-align: center;
-}
-
-nav {
-	background-color: #E8C66A
-	border: 1px black solid;
-	padding: 20px;
 }
 
 #about {
