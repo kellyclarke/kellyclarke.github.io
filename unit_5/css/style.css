@@ -17,7 +17,9 @@ nav {
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 10px;
-	word-spacing: 1em;
+	font-size: 1.5em;
+	word-spacing: 4em;
+	text-align: center;
 }
 
 #logo {
@@ -48,13 +50,11 @@ nav {
 #about {
 	background-color: #FFC675;
 	border: 1px black solid;
-	padding: 1em;
+	padding: 2em;
+	column-count: 2;
+	column-gap: 50;
+	float: center;
 	/* padding: 20px; */
-}
-
-.headshot {
-	float: left;
-	padding: 1em;
 }
 
 body {
