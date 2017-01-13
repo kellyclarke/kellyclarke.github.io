@@ -15,9 +15,10 @@ header {
 }
 
 nav {
-	background-color: #E8C66A
+	background-color: #FFED74;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 10px;
+	word-spacing: 1em;
 }
 
 #logo {
