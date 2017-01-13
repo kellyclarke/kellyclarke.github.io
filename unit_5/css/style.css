@@ -13,6 +13,11 @@ header {
 	padding: 20px;
 }
 
+#logo {
+	font-size: 3em;
+	font-style: bold;
+}
+
 #splash {
 	background-image: url("../images/my-work.jpg");
 	background-size:cover;
@@ -49,8 +54,6 @@ nav {
 .headshot {
 	float: left;
 	padding: 1em;
-	background-size:3em auto;
-
 }
 
 body {
