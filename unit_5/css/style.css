@@ -46,6 +46,12 @@ nav {
 	/* padding: 20px; */
 }
 
+.headshot {
+	float: left;
+	padding: 1em;
+
+}
+
 body {
 	background-color: rgb(245,245,245);
 	color:rgb(91,89,89);
