@@ -4,19 +4,14 @@
 .wrapper {
 	background-color: rgb(91,89,89);
 	border: 1px black solid;
-	padding: 20px;
 }
 
 header {
-	background-color: #FFED74;
-	padding: 5px;
-	font-size: 2em;
 	text-align: center;
-	background-image: url("../images/my-work.jpg");
-	background-repeat: no-repeat;
-	background-size:cover;
-	opacity: 0.8;
-    filter: alpha(opacity=80);
+	width: 100%;
+	float: left;
+	/* padding-bottom: 2em; */
+	/* background: rgba(38, 27, 202, 0.75); */
 }
 
 nav {
@@ -26,6 +21,8 @@ nav {
 	font-size: 1.5em;
 	word-spacing: 5em;
 	text-align: center;
+	margin-top: 1em;
+	float: right;
 }
 
 #logo {
@@ -36,20 +33,17 @@ nav {
 	background-image: url("../images/my-work.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
-    opacity: 0.8;
-    filter: alpha(opacity=80);
 	padding: 7em 0;
+	text-align: center;
 }
 #name {
 	font-size: 5em;
 	color:rgb(91,89,89);
 	font-family: 'Catamaran', sans-serif;
-	text-align: center;
-	background-color: black;
-	opacity: 85%;
+	margin: 0;
 }
 #slogan {
-	font-size:1em;
+	font-size: 2em;
 	font-style:italic;
 	color:rgb(247,244,244);
 	text-align: center;
@@ -116,4 +110,13 @@ footer {
 	border: 1px black solid;
 	padding: 20px;
 }
+#splash div {
+    background: #333;
+    display: inline-block;
+    padding: 2em 4em 4em;
+}
 
+header img {
+    width: 5em;
+    float: left;
+}
