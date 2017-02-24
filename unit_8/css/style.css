@@ -25,14 +25,30 @@ header img {
 	height: 0;
 }
 
-nav {
+ul.topnav {
+	list-style-type: none;
 	background-color: none;
-	color: white;
-	padding: .5em 1em;
+	overflow:hidden;
+}
+ul.topnav li {
+	float:right;
+}
+
+ul.topnav li a {
+	display: inline-block;
+	color:#686868;
+	text-align: center;
+	padding:.5em 1em;
 	font-size: 1.5em;
 	word-spacing: 5em;
-	text-align: center;
-	float: right;
+}
+
+ul.topnav li a:hover {
+	color:white;
+}
+
+ul.topnav li.icon {
+	display: none;
 }
 
 #logo {
@@ -148,13 +164,64 @@ footer {
 	padding: 1em;
 	text-align: center;
 	width: 100%;
+	display:inline-block;
+	color:#686868;
 }
 
-footer p {
+footer a {
 	line-height: .5em;
+	padding:0em 1em;
+	color:#686868;
 }
 
 footer img {
-	width:3em;
-	float:center;
+	width:1.75em;
+	margin:0em 1em;
 }
+
+@media screen and (max-width: 661px) {
+	#about_left {
+		width: 100%;
+		float: left;
+	}
+	#headshot_right {
+		width: 100%;
+		float: left;
+		margin-top: 2em;
+	}
+	#headshot_right img {
+		width: 75%;
+	}
+	#testimonial {
+		width: 100%;
+		padding: 1.75em;
+	}
+	ul.topnav li:not(:first-child) {display:none;}
+	ul.topnav li.icon {
+		float:right;
+		display: inline-block;
+	}
+	ul.topnav.responsive {
+		position:relative;
+	}
+	ul.topnav.responsive li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	ul.topnav.responsive li {
+		float:none;
+		display:inline;
+	}
+	ul.topnav.responsive li a {
+		display:block;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 414px) {
+	font-size: 18px;
+	
+}
+
